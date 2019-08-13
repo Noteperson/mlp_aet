@@ -1,0 +1,18 @@
+Team: /mlp/
+
+Team Colors:
+- 1st: 153 051 204
+- 2nd: 000 255 255
+
+Kit Colors:
+- 1st Player: #263873 - #84499c - 15
+- 2nd Player: #18a3d6 - #bdf0ff - 15
+- 3rd Player: #6b4fa7 - #f1f1f4 - 15
+- 4th Player: #fcf9af - #ffba52 - 15
+- 5th Player: #fcb7d8 - #fcf4a4 - 15
+- 6th Player: #f7438c - #f9b3d0 - 15
+- 7th Player: #3c3c3c - #f18218 - 3
+- 8th Player: #0d0e0d - #70ba2e - 15
+- 9th Player: #68318e - #f1c7f7 - 15
+
+- 1st GK: #f4efa7 - #b5bbc8 - 15
