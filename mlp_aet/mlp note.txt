@@ -11,7 +11,7 @@ Kit Colors:
 - 4th Player: #fcf9af - #ffba52 - 15
 - 5th Player: #fcb7d8 - #fcf4a4 - 15
 - 6th Player: #f7438c - #f9b3d0 - 15
-- 7th Player: #3c3c3c - #f18218 - 3
+- 7th Player: #21ab9c - #f7f7b5 - 15
 - 8th Player: #0d0e0d - #70ba2e - 15
 - 9th Player: #68318e - #f1c7f7 - 15
 
