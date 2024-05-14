@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+   <model level="0" type="face_neck" path="./face_high_*.model"
+                                 material="./face.mtl"/>
+	<model level="0" type="head" path="./oral_horn_*.model"
+                                 material="./apc.mtl"/>
+	<model level="0" type="parts" path="./oral_collar_book_*.model"
+                                 material="./apc2.mtl"/>
+	<model level="0" type="parts" path="./oral_collar_wing_*.model" material="./apc.mtl"/>
+   <model level="0" type="parts" path="./oral_collar_wing2_*.model" material="./apc3.mtl"/>
+	<model level="0" type="parts" path="./oral_collar_wing3_*.model" material="./apc4.mtl"/>
+	<model level="0" type="pants_nocloth" path="./oral_pants_001_*.model" material="./apc.mtl"/>
+	<model level="0" type="collar" path="./oral_collar_001_*.model"
+                                 material="./apc_col.mtl"/>
+<dif>
+RkFDRQQAAADNzIw/zcyMP83MjD8AAAAAAACAPwAAAAAAAAAAAACAvwAAAADk5+1BDb7yQXwe4sAU
+ErTAAAAAAM2MUDv2CCu7IAAAAAYAAADwAAAAAAEAABABAAAgAQAAMAEAAEABAABQAQAAYAEAAHAB
+AACAAQAAkAEAAKABAACwAQAAwAEAANABAADgAQAA8AEAAAACAAAQAgAAIAIAADACAABAAgAAUAIA
+AGACAABwAgAAgAIAAJACAACgAgAAsAIAAMACAADQAgAA4AIAAPACAAAQAwAAMAMAAFADAABwAwAA
+kAMAAAAAAAAAAAAAUhilO5OWJ7mqSaU5AAAAACpjEjzpi6A7VG2uOAAAAAA0mhM8MZ+gO4EJHDoA
+AAAAryeoO//qFbkEzqu5AAAAABxQ1DtNcZ+6WgvCOgAAAAAN5wc8Y5iuuvC27boAAAAAG/O7O3mj
+izqCGGI6AAAAAKOD+ztvNGc6ynoRuwAAAAAf97o7rtmNOoIYYjoAAAAAiXD7O8DCZTrKehG7AAAA
+AB/3uju92Y06ghhiOgAAAABGcfs7xqdmOsp6EbsAAAAA1XrxO2DdUjsDJ623AAAAAHN0FTygUII7
+0A+yOgAAAABzdBU8VVCCO5cwMboAAAAAI1eWOtgf7LoffYG6AAAAAKfHkTsuiOo6CVQpOQAAAACJ
+wpE7nwnqOvzbRjoAAAAARtyYOjWn67oABIk6AAAAAN7x0jslLWw7QTOKOQAAAABu9NI7Gy5sO3/Z
+eLkAAAAAdfSYO4EKyjp8IaE6AAAAAF1mQzvkfqA61XWYOAAAAADiUVQ7G6KgOvSarjgAAAAAdfSY
+O44xyzrV8p66AAAAAAMQADzoHsa6C6TStQAAAABaj+07uFsWOmoK/7gAAAAAerTOO4WcNDlKMxS5
+AAAAAFe3UDvUGSs7FcGLLwAAAAC+NYw72pmlOo2icLoAAAAA979yO9CZpTrkeGo6AAAAAM76lzro
+o6g6Z7LsuAAAAAAAAAAAAAAAAAAAAAAAAIA/AACAPwAAgD8AAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+gD8AAIA/AACAPwAAAAAAAAAAAAAAAAAAAAAAAAAAAACAPwAAgD8AAIA/AAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAIA/AACAPwAAgD8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAgD8AAIA/AACAPwAAAAAAAAAA
+AAAAAAAAAAAAAAAAAACAPwAAgD8AAIA/AAAAAAAAAAA=
+</dif> 
+</config> 

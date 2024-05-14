@@ -1,0 +1,22 @@
+<materialset>
+    <material name="Boots_Game_mat1" shader="Pony">
+        <sampler name="DiffuseMap" path="./glove.dds" srgb="1" minfilter="linear" magfilter="linear" mipfilter="linear" uaddr="wrap" vaddr="wrap" waddr="wrap" maxaniso="2" />
+        <state name="alpharef" value="254" />
+        <state name="blendmode" value="0" />
+        <state name="alphablend" value="1" />
+        <state name="alphatest" value="1" />
+        <state name="twosided" value="1" />
+        <state name="ztest" value="1" />
+        <state name="zwrite" value="1" />
+    </material>
+    <material name="Boots_Game_Alpha_mat1" shader="Pony">
+        <sampler name="DiffuseMap" path="./glove.dds" srgb="1" minfilter="linear" magfilter="linear" mipfilter="linear" uaddr="wrap" vaddr="wrap" waddr="wrap" maxaniso="2" />
+        <state name="alpharef" value="254" />
+        <state name="blendmode" value="0" />
+        <state name="alphablend" value="1" />
+        <state name="alphatest" value="1" />
+        <state name="twosided" value="1" />
+        <state name="ztest" value="1" />
+        <state name="zwrite" value="1" />
+    </material>
+</materialset>

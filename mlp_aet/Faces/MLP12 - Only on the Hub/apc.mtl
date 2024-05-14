@@ -1,0 +1,92 @@
+<materialset>
+	<material name="dan" shader="Basic_C">
+		<sampler name="DiffuseMap" path="./dan.dds" srgb="1" minfilter="anisotropic" magfilter="linear" mipfilter="linear" uaddr="wrap" vaddr="wrap" waddr="wrap" maxaniso="2" />
+		<state name="alpharef" value="0" />
+		<state name="blendmode" value="0" />
+		<state name="alphablend" value="0" />
+		<state name="alphatest" value="0" />
+		<state name="twosided" value="0" />
+		<state name="ztest" value="1" />
+		<state name="zwrite" value="1" />
+	</material>
+	<material name="uni_collar" shader="Shirt_NB">
+		<state name="ztest" value="1" />
+		<state name="zwrite" value="1" />
+		<state name="twosided" value="1" />
+		<state name="alphatest" value="0" />
+		<state name="alpharef" value="0" />
+		<state name="alphablend" value="0" />
+		<state name="blendmode" value="0" />
+		<sampler name="DiffuseMap" path="./jerk.dds" srgb="1" minfilter="linear" magfilter="linear" uaddr="clamp" vaddr="clamp"/>
+		<sampler name="NormalMap" path="./shirts_nrm.dds" minfilter="linear" magfilter="linear" uaddr="clamp" vaddr="clamp"/>
+		<sampler name="DetailMaterialMap" path="./uni_pattern_mtm00.dds" />
+		<sampler name="DetailNormalMap" path="./uni_pattern_nrm00.dds" />
+		<sampler name="Stain" path="./uni_stain_g.dds" />
+		<sampler name="StainMask" path="./uni_stain_mask00.dds" />
+		<sampler name="Badge" path="./test.dds" />
+		<sampler name="NumberFront" path="./test.dds" />
+		<sampler name="NumberBack" path="./test.dds" />
+		<sampler name="Name" path="./test.dds" />
+	</material>
+	<material name="uni_shirts" shader="Shirt_NB">
+		<state name="ztest" value="1" />
+		<state name="zwrite" value="1" />
+		<state name="twosided" value="1" />
+		<state name="alphatest" value="0" />
+		<state name="alpharef" value="0" />
+		<state name="alphablend" value="0" />
+		<state name="blendmode" value="0" />
+		<sampler name="DiffuseMap" path="./jerk.dds" srgb="1" minfilter="linear" magfilter="linear" uaddr="clamp" vaddr="clamp"/>
+		<sampler name="NormalMap" path="./shirts_nrm.dds" minfilter="linear" magfilter="linear" uaddr="clamp" vaddr="clamp"/>
+		<sampler name="DetailMaterialMap" path="./uni_pattern_mtm00.dds" />
+		<sampler name="DetailNormalMap" path="./uni_pattern_nrm00.dds" />
+		<sampler name="Stain" path="./uni_stain_g.dds" />
+		<sampler name="StainMask" path="./uni_stain_mask00.dds" />
+		<sampler name="Badge" path="./test.dds" />
+		<sampler name="NumberFront" path="./test.dds" />
+		<sampler name="NumberBack" path="./test.dds" />
+		<sampler name="Name" path="./test.dds" />
+	</material>
+	<material name="uni_sleeve" shader="Shirt_NB">
+		<state name="ztest" value="1" />
+		<state name="zwrite" value="1" />
+		<state name="twosided" value="0" />
+		<state name="alphatest" value="0" />
+		<state name="alpharef" value="0" />
+		<state name="alphablend" value="0" />
+		<state name="blendmode" value="0" />
+		<vector name="DepthBias" x="0.0" />
+		<sampler name="DiffuseMap" path="./jerk.dds" srgb="1" minfilter="linear" magfilter="linear" uaddr="clamp" vaddr="clamp"/>
+		<sampler name="NormalMap" path="./sleeve_nrm.dds" minfilter="linear" magfilter="linear" uaddr="clamp" vaddr="clamp"/>
+		<sampler name="DetailMaterialMap" path="./uni_pattern_mtm00.dds" />
+		<sampler name="DetailNormalMap" path="./uni_pattern_nrm00.dds" />
+		<sampler name="Stain" path="./uni_stain_g.dds" />
+		<sampler name="StainMask" path="./uni_stain_mask00.dds" />
+		<sampler name="Badge" path="./test.dds" />
+		<sampler name="NumberFront" path="./test.dds" />
+		<sampler name="NumberBack" path="./test.dds" />
+		<sampler name="Name" path="./test.dds" />
+	</material>
+	<material name="uni_pants" shader="Pants_NB">
+		<state name="ztest" value="1" />
+		<state name="zwrite" value="1" />
+		<state name="twosided" value="0" />
+		<state name="alphatest" value="0" />
+		<state name="alpharef" value="0" />
+		<state name="alphablend" value="0" />
+		<state name="blendmode" value="0" />
+		<sampler name="NormalMap" path="./pants_nrm.dds" srgb="0" minfilter="linear" magfilter="linear" uaddr="clamp" vaddr="clamp"/>
+		<sampler name="DetailMaterialMap" path="./pants_pattern_mtm.dds" srgb="0" minfilter="linear" magfilter="linear" uaddr="repeat" vaddr="repeat"/>
+		<sampler name="DetailNormalMap" path="./pants_pattern_nrm.dds" srgb="0" minfilter="linear" magfilter="linear" uaddr="repeat" vaddr="repeat"/>
+	</material>
+	<material name="skin_limb" shader="Basic_C">
+		<sampler name="DiffuseMap" path="./skin.dds" srgb="1" minfilter="linear" magfilter="linear" mipfilter="linear" uaddr="clamp" vaddr="clamp" waddr="wrap" maxaniso="2" />
+		<state name="twosided" value="0" />
+		<state name="alphatest" value="0" />
+		<state name="alpharef" value="0" />
+		<state name="alphablend" value="0" />
+		<state name="blendmode" value="0" />
+		<state name="ztest" value="1" />
+		<state name="zwrite" value="1" />
+	</material>
+</materialset>

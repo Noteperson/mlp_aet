@@ -1,0 +1,42 @@
+<materialset>
+    <material name="hairTubeShader" shader="Hair">
+        <vector name="HairColor" x="1" y="1" z="1" w="1" />
+        <vector name="HairRimParam1" x="0.75" y="10" z="2" w="0.15" />
+        <vector name="HairRimParam2" x="1" y="0.01" z="0" w="0" />
+        <sampler name="DiffuseMap" path="./hair_col.dds" srgb="1" minfilter="linear" magfilter="linear" mipfilter="linear" uaddr="clamp" vaddr="clamp" waddr="wrap" maxaniso="2" />
+        <sampler name="SpecularMap" path="./hair_spe.dds" srgb="0" minfilter="linear" magfilter="linear" mipfilter="linear" uaddr="wrap" vaddr="wrap" waddr="wrap" maxaniso="2" />
+        <state name="alpharef" value="0" />
+        <state name="blendmode" value="0" />
+        <state name="alphablend" value="1" />
+        <state name="alphatest" value="0" />
+        <state name="twosided" value="1" />
+        <state name="ztest" value="1" />
+        <state name="zwrite" value="1" />
+    </material>
+    <material name="head_phong" shader="Wrinkle">
+        <sampler name="NormalMap" path="model/character/face/common/head_normal_default.dds" srgb="0" minfilter="linear" magfilter="linear" mipfilter="linear" uaddr="clamp" vaddr="clamp" waddr="wrap" maxaniso="2" />
+        <sampler name="Normal2" path="model/character/face/common/head_normal_animation.dds" srgb="0" minfilter="linear" magfilter="linear" mipfilter="linear" uaddr="clamp" vaddr="clamp" waddr="wrap" maxaniso="2" />
+        <sampler name="Mapping" path="model/character/face/common/head_normal_mask.dds" srgb="1" minfilter="linear" magfilter="linear" mipfilter="linear" uaddr="clamp" vaddr="clamp" waddr="wrap" maxaniso="2" />
+        <state name="alpharef" value="0" />
+        <state name="blendmode" value="0" />
+        <state name="alphablend" value="0" />
+        <state name="alphatest" value="0" />
+        <state name="twosided" value="0" />
+        <state name="ztest" value="1" />
+        <state name="zwrite" value="1" />
+    </material>
+    <material name="hairparts_htShader" shader="Hair">
+        <vector name="HairColor" x="1" y="1" z="1" w="1" />
+        <vector name="HairRimParam1" x="0.75" y="10" z="2" w="0.15" />
+        <vector name="HairRimParam2" x="1" y="0.01" z="0" w="0" />
+        <sampler name="DiffuseMap" path="./hair_parts_col.dds" srgb="1" minfilter="linear" magfilter="linear" mipfilter="linear" uaddr="wrap" vaddr="wrap" waddr="wrap" maxaniso="2" />
+        <sampler name="SpecularMap" path="./hair_parts_spe.dds" srgb="0" minfilter="linear" magfilter="linear" mipfilter="linear" uaddr="wrap" vaddr="wrap" waddr="wrap" maxaniso="2" />
+        <state name="alpharef" value="254" />
+        <state name="blendmode" value="0" />
+        <state name="alphablend" value="0" />
+        <state name="alphatest" value="1" />
+        <state name="twosided" value="1" />
+        <state name="ztest" value="1" />
+        <state name="zwrite" value="1" />
+    </material>
+</materialset>

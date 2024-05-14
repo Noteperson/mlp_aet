@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<model level="0" type="gloveL" material="./glove_l.mtl" path="./glove_l.model"/>
+	<model level="0" type="gloveR" material="./glove_r.mtl" path="./glove_r.model"/>
+</config>

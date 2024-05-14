@@ -1,0 +1,34 @@
+<materialset>
+	<material name="uni_pants" shader="Pants_NB">
+		<state name="ztest" value="1" />
+		<state name="zwrite" value="1" />
+		<state name="twosided" value="0" />
+		<state name="alphatest" value="0" />
+		<state name="alpharef" value="0" />
+		<state name="alphablend" value="0" />
+		<state name="blendmode" value="0" />
+		<sampler name="NormalMap" path="./pants_nrm.dds" srgb="0" minfilter="linear" magfilter="linear" uaddr="clamp" vaddr="clamp"/>
+		<sampler name="DetailMaterialMap" path="./pants_pattern_mtm.dds" srgb="0" minfilter="linear" magfilter="linear" uaddr="repeat" vaddr="repeat"/>
+		<sampler name="DetailNormalMap" path="./pants_pattern_nrm.dds" srgb="0" minfilter="linear" magfilter="linear" uaddr="repeat" vaddr="repeat"/>
+	</material>
+	<material name="uni_shirts" shader="Shirt_NB">
+		<state name="ztest" value="1" />
+		<state name="zwrite" value="1" />
+		<state name="twosided" value="1" />
+		<state name="alphatest" value="0" />
+		<state name="alpharef" value="0" />
+		<state name="alphablend" value="0" />
+		<state name="blendmode" value="0" />
+		<sampler name="NormalMap" path="./shirts_nrm.dds" srgb="0" minfilter="linear" magfilter="linear" uaddr="clamp" vaddr="clamp"/>
+	</material>
+	<material name="scarf" shader="Basic_C">
+		<state name="ztest" value="1" />
+		<state name="zwrite" value="1" />
+		<state name="twosided" value="0" />
+		<state name="alphatest" value="0" />
+		<state name="alpharef" value="0" />
+		<state name="alphablend" value="1" />
+		<state name="blendmode" value="0" />
+		<sampler name="DiffuseMap" path="./hair_parts_col.dds" srgb="1" minfilter="linear" magfilter="linear" uaddr="clamp" vaddr="clamp" />
+	</material>
+</materialset>

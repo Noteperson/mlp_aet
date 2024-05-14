@@ -1,0 +1,13 @@
+<materialset>
+  <material name="horse" shader="Basic_C">
+     <sampler name="DiffuseMap" path="./hair.dds" srgb="1" minfilter="linear" magfilter="linear" uaddr="clamp" vaddr="clamp" />
+     <state name="ztest" value="1" />
+     <state name="zwrite" value="1" />
+     <state name="twosided" value="1" />
+     <state name="alphatest" value="0" />
+     <state name="alpharef" value="0" />
+     <state name="alphablend" value="0" />
+     <state name="blendmode" value="0" />
+  </material>
+</materialset>
+

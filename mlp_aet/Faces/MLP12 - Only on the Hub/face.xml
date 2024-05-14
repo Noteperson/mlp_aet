@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+   <model level="0" type="face_neck" path="./face_high_*.model"
+                                 material="./face.mtl"/>
+	<model level="0" type="head" path="./oral_dan_*.model"
+                                 material="./apc.mtl"/>
+
+   <model level="0" type="thigh_middle" path="./oral_thighmiddle_*.model" material="./apc.mtl"/>
+	<model level="0" type="arm" path="./oral_arm_*.model" material="./apc.mtl"/>
+	
+   <model level="0" type="handL" path="./oral_lefthand_*.model" material="./apc.mtl"/>
+   <model level="0" type="handR" path="./oral_righthand_*.model" material="./apc.mtl"/>
+	<model level="0" type="pants_nocloth" path="./oral_pants_out_sub_*.model" material="./apc.mtl"/>
+	<model level="0" type="pants_nocloth" path="./oral_pants_011_*.model" material="./apc.mtl"/>
+	
+   <model level="0" type="parts" path="./oral_collar_001_*.model"
+                                 material="./apc.mtl"/>
+   <model level="0" type="parts" path="./oral_shirt_out_*.model"
+                                 material="./apc.mtl"/>
+   <model level="0" type="parts" path="./oral_sleeve_short_001_*.model"
+                                 material="./apc.mtl"/>
+<dif>
+RkFDRQUAAACmm4Q/ppuEP6abhD8AAAAAAAAAQAAAAAAAAAAAAAAAwAAAAAAFg/BBCZntQYyRAcFx
+owTBAAAAAOF6Vzt7NEG7IQAAAAYAAADwAAAAAAEAABABAAAgAQAAMAEAAEABAABQAQAAYAEAAHAB
+AACAAQAAkAEAAKABAACwAQAAwAEAANABAADgAQAA8AEAAAACAAAQAgAAIAIAADACAABAAgAAUAIA
+AGACAABwAgAAgAIAAJACAACgAgAAsAIAAMACAADQAgAA4AIAAPACAAAAAwAAIAMAAEADAABgAwAA
+gAMAAKADAAAAAAAAoPqqOimpizs4VAo6AAAAADZmXTtk3tI76n04OgAAAABdwkI7jDzgO2ewbLoA
+AAAATkdFOr8rXTsb2AK5AAAAAPeDSDs2bAM7AIRSOgAAAACZmS86jqwAOSLAh7oAAAAAcvYRO7ij
+JjqzRlg6AAAAAIfygjoy49K60npfugAAAAB6/g87IhArOrNGWDoAAAAAIKaCOgqc07rSel+6AAAA
+AHr+DztAECs6s0ZYOgAAAAAUqYI6hynTutJ6X7oAAAAATpRLO+iLxDu9T625AAAAACDmUDtFfhc8
+Aby/OAAAAAB0XlY74jUUPHoY4LkAAAAA1ZWru9QonzvN+3e6AAAAACFXzzhsD7A7Px+VugAAAABt
+6qM5bUCdO4ZXdToAAAAA+PGWu/0Fazu2/xE6AAAAALdUHbsRbgQ8jhCnuwAAAABmgO66+XvhO1+L
+ajsAAAAA8j+NO3yHfjuLQbS5AAAAABF22rqexq07aQy9uQAAAACwvYi6OnqMO99hELsAAAAAXEbA
+O88IMTuZ3Iy5AAAAAMT0ljkW7ow7b408uQAAAADpiLw7DDNcO//u4TkAAAAA2XqUO1XTDztQpNA5
+AAAAAGmlVztaRUE79zaeLwAAAAAiZ8S5CFdQO3jhhLoAAAAAcYQBOodnwDvhgRU6AAAAAO89nbrs
+RAw80FCiugAAAABhs6C6pa9LOwyRtLkAAAAAAAAAAAAAAAAAAAAAAACAPwAAgD8AAIA/AAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAIA/AACAPwAAgD8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAgD8AAIA/AACA
+PwAAAAAAAAAAAAAAAAAAAAAAAAAAAACAPwAAgD8AAIA/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAIA/
+AACAPwAAgD8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAgD8AAIA/AACAPwAAAAAAAAAA
+
+</dif> 
+</config> 

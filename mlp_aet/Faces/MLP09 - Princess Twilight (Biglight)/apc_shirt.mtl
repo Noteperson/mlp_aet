@@ -1,0 +1,22 @@
+<materialset>
+	<material name="uni_shirts" shader="Pony">
+		<state name="alpharef" value="0" />
+		<state name="blendmode" value="0" />
+		<state name="alphablend" value="0" />
+		<state name="alphatest" value="0" />
+		<state name="twosided" value="0" />
+		<state name="ztest" value="1" />
+		<state name="zwrite" value="1" />
+		<sampler name="DiffuseMap" path="./tail.dds" srgb="1" minfilter="linear" magfilter="linear" uaddr="clamp" vaddr="clamp" />
+	</material>
+	<material name="medic" shader="Shirt_NB">
+		<state name="alpharef" value="0" />
+		<state name="blendmode" value="0" />
+		<state name="alphablend" value="0" />
+		<state name="alphatest" value="0" />
+		<state name="twosided" value="0" />
+		<state name="ztest" value="1" />
+		<state name="zwrite" value="1" />
+		<sampler name="NormalMap" path="./shirts_nrm.dds" srgb="0" minfilter="linear" magfilter="linear" uaddr="clamp" vaddr="clamp"/>
+	</material>
+</materialset>
