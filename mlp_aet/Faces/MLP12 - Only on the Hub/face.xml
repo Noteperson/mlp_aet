@@ -5,11 +5,11 @@
 	<model level="0" type="head" path="./oral_dan_*.model"
                                  material="./apc.mtl"/>
 
-   <model level="0" type="thigh_middle" path="./oral_thighmiddle_*.model" material="./apc.mtl"/>
-	<model level="0" type="arm" path="./oral_arm_*.model" material="./apc.mtl"/>
+   <model level="0" type="parts" path="./oral_thighmiddle_*.model" material="./apc.mtl"/>
+	<model level="0" type="parts" path="./oral_arm_*.model" material="./apc.mtl"/>
 	
-   <model level="0" type="handL" path="./oral_lefthand_*.model" material="./apc.mtl"/>
-   <model level="0" type="handR" path="./oral_righthand_*.model" material="./apc.mtl"/>
+   <model level="0" type="gloveL" path="./oral_lefthand_*.model" material="./apc.mtl"/>
+   <model level="0" type="gloveR" path="./oral_righthand_*.model" material="./apc.mtl"/>
 	<model level="0" type="pants_nocloth" path="./oral_pants_out_sub_*.model" material="./apc.mtl"/>
 	<model level="0" type="pants_nocloth" path="./oral_pants_011_*.model" material="./apc.mtl"/>
 	

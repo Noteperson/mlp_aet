@@ -12,8 +12,6 @@
 								 material="./apc.mtl"/>
 	<model level="0" type="parts" path="./oral_shirt_tail_*.model"
                                  material="./apc_shirt.mtl"/>
-	<model level="0" type="parts" path="./oral_shirt_sign_*.model"
-                                 material="./apc_sign.mtl"/>
 	<model level="0" type="parts" path="./oral_shoes_medi_*.model"
 								 material="./apc_shoes.mtl"/>
 	<model level="0" type="parts" path="./oral_shoewings_medi_*.model"
