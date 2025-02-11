@@ -1,0 +1,7 @@
+<materialset>
+	<material name="medic" shader="Uniform">
+    <sampler name="NormalMap" path="./socks_nrm.dds" srgb="0" minfilter="linear" magfilter="linear" uaddr="clamp" vaddr="clamp"/>
+    <sampler name="DetailMaterialMap" path="./socks_pattern_mtm.dds" srgb="0" minfilter="linear" magfilter="linear" uaddr="repeat" vaddr="repeat"/>
+    <sampler name="DetailNormalMap" path="./socks_pattern_nrm.dds" srgb="0" minfilter="linear" magfilter="linear" uaddr="repeat" vaddr="repeat"/>
+  </material>
+</materialset>

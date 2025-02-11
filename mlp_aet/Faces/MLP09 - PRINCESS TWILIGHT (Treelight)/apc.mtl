@@ -1,0 +1,80 @@
+<materialset>
+	<material name="mane" shader="Pony">
+		<state name="alpharef" value="0" />
+		<state name="blendmode" value="0" />
+		<state name="alphablend" value="0" />
+		<state name="alphatest" value="0" />
+		<state name="twosided" value="0" />
+		<state name="ztest" value="1" />
+		<state name="zwrite" value="1" />
+		<sampler name="DiffuseMap" path="./hair.dds" srgb="1" minfilter="linear" magfilter="linear" uaddr="clamp" vaddr="clamp" />
+	</material>
+	<material name="horn" shader="Overlay">
+		<state name="alpharef" value="0" />
+		<state name="blendmode" value="0" />
+		<state name="alphablend" value="0" />
+		<state name="alphatest" value="0" />
+		<state name="twosided" value="0" />
+		<state name="ztest" value="1" />
+		<state name="zwrite" value="1" />
+		<sampler name="DiffuseMap" path="./horn.dds" srgb="1" minfilter="linear" magfilter="linear" uaddr="clamp" vaddr="clamp" />
+	</material>
+	<material name="magic" shader="Simple">
+		<state name="alpharef" value="0" />
+		<state name="blendmode" value="0" />
+		<state name="alphablend" value="1" />
+		<state name="alphatest" value="0" />
+		<state name="twosided" value="0" />
+		<state name="ztest" value="1" />
+		<state name="zwrite" value="1" />
+		<sampler name="DiffuseMap" path="./magic.dds" srgb="1" minfilter="linear" magfilter="linear" uaddr="clamp" vaddr="clamp" />
+	</material>
+	<material name="crown" shader="Basic_CNSR">
+		<vector name="Reflection" x="0.9" y="1" z="1" w="0" />
+		<vector name="Shininess" x="0.9" y="0" z="0" w="1.0" />
+		<sampler name="DiffuseMap" path="./hair.dds" srgb="1" minfilter="anisotropic" magfilter="linear" mipfilter="linear" uaddr="wrap" vaddr="wrap" waddr="wrap" maxaniso="2" />
+		<sampler name="SpecularMap" path="./no_spec.dds" srgb="0" minfilter="anisotropic" magfilter="linear" mipfilter="linear" uaddr="wrap" vaddr="wrap" waddr="wrap" maxaniso="2" />
+		<sampler name="EnvironmentMap" path="./brass_envi.dds" srgb="0" minfilter="anisotropic" magfilter="linear" mipfilter="linear" uaddr="wrap" vaddr="wrap" waddr="wrap" maxaniso="2" />
+		<state name="alpharef" value="0" />
+		<state name="blendmode" value="0" />
+		<state name="alphablend" value="0" />
+		<state name="alphatest" value="0" />
+		<state name="twosided" value="0" />
+		<state name="ztest" value="1" />
+		<state name="zwrite" value="1" />
+	</material>
+	<material name="gem" shader="Basic_CNSR">
+		<vector name="Reflection" x="0.9" y="1" z="1" w="0" />
+		<vector name="Shininess" x="0.9" y="0" z="0" w="0.1" />
+		<sampler name="DiffuseMap" path="./hair.dds" srgb="1" minfilter="anisotropic" magfilter="linear" mipfilter="linear" uaddr="wrap" vaddr="wrap" waddr="wrap" maxaniso="2" />
+		<sampler name="SpecularMap" path="./no_spec.dds" srgb="0" minfilter="anisotropic" magfilter="linear" mipfilter="linear" uaddr="wrap" vaddr="wrap" waddr="wrap" maxaniso="2" />
+		<sampler name="EnvironmentMap" path="./glass_envi.dds" srgb="0" minfilter="anisotropic" magfilter="linear" mipfilter="linear" uaddr="wrap" vaddr="wrap" waddr="wrap" maxaniso="2" />
+		<state name="alpharef" value="0" />
+		<state name="blendmode" value="0" />
+		<state name="alphablend" value="0" />
+		<state name="alphatest" value="0" />
+		<state name="twosided" value="0" />
+		<state name="ztest" value="1" />
+		<state name="zwrite" value="1" />
+	</material>
+	<material name="uni_shirts" shader="Pony">
+        <state name="alpharef" value="0" />
+        <state name="blendmode" value="0" />
+        <state name="alphablend" value="1" />
+        <state name="alphatest" value="0" />
+        <state name="twosided" value="1" />
+        <state name="ztest" value="1" />
+        <state name="zwrite" value="1" />
+		<sampler name="DiffuseMap" path="./hair.dds" srgb="1" minfilter="linear" magfilter="linear" uaddr="clamp" vaddr="clamp" />
+	</material>
+	<material name="medic" shader="Pony">
+		<state name="alpharef" value="0" />
+        <state name="blendmode" value="0" />
+        <state name="alphablend" value="0" />
+        <state name="alphatest" value="0" />
+        <state name="twosided" value="0" />
+        <state name="ztest" value="1" />
+        <state name="zwrite" value="1" />
+		<sampler name="DiffuseMap" path="./body.dds" srgb="1" minfilter="linear" magfilter="linear" />
+	</material>
+</materialset>

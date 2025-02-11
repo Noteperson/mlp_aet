@@ -1,0 +1,56 @@
+<materialset>
+	<material name="mane" shader="Basic_C">
+		<state name="alpharef" value="0" />
+		<state name="blendmode" value="0" />
+		<state name="alphablend" value="0" />
+		<state name="alphatest" value="0" />
+		<state name="twosided" value="0" />
+		<state name="ztest" value="1" />
+		<state name="zwrite" value="1" />
+		<sampler name="DiffuseMap" path="./mane.dds" srgb="1" minfilter="linear" magfilter="linear" uaddr="clamp" vaddr="clamp" />
+	</material>
+	<material name="uni_shirts" shader="Simple">
+		<state name="alpharef" value="0" />
+		<state name="blendmode" value="0" />
+		<state name="alphablend" value="1" />
+		<state name="alphatest" value="0" />
+		<state name="twosided" value="1" />
+		<state name="ztest" value="1" />
+		<state name="zwrite" value="1" />
+		<sampler name="DiffuseMap" path="./hair.dds" srgb="1" minfilter="linear" magfilter="linear" uaddr="clamp" vaddr="clamp" />
+	</material>
+	<material name="body" shader="Basic_C">
+		<state name="alpharef" value="0" />
+		<state name="blendmode" value="0" />
+		<state name="alphablend" value="0" />
+		<state name="alphatest" value="0" />
+		<state name="twosided" value="0" />
+		<state name="ztest" value="1" />
+		<state name="zwrite" value="1" />
+		<sampler name="DiffuseMap" path="./body.dds" srgb="1" minfilter="linear" magfilter="linear" />
+	</material>
+	<material name="head" shader="Basic_C">
+		<state name="alpharef" value="0" />
+		<state name="blendmode" value="0" />
+		<state name="alphablend" value="0" />
+		<state name="alphatest" value="0" />
+		<state name="twosided" value="0" />
+		<state name="ztest" value="1" />
+		<state name="zwrite" value="1" />
+		<sampler name="DiffuseMap" path="./head.dds" srgb="1" minfilter="linear" magfilter="linear" />
+	</material>
+	<material name="slinky" shader="Basic_CNSR">
+		<sampler name="DiffuseMap" path="./slinky.dds" srgb="1" minfilter="linear" magfilter="linear" />
+		<sampler name="SpecularMap" path="./slinky.dds" srgb="1" minfilter="linear" magfilter="linear" />
+		<sampler name="RoughnessMap" path="model/character/uniform/common/XXX/metal_roughness.dds" srgb="0" minfilter="linear" magfilter="linear" />
+		<vector name="Reflection" x="1.0" y="1.0" z="1.0" w="0.0" />
+		<vector name="Shininess" x="0.9" y="0.0" z="0.0" w="1.0" />
+		<state name="ztest" value="1" />
+		<state name="zwrite" value="1" />
+		<state name="twosided" value="0" />
+		<state name="alphatest" value="1" />
+		<state name="alpharef" value="0" />
+		<state name="alphablend" value="0" />
+		<state name="blendmode" value="0" />
+	</material>
+</materialset>

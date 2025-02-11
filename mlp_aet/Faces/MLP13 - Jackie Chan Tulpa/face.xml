@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <config>
+	<model level="0" type="face_neck" path="./oral_dummy_*.model" material="./apc.mtl" />
+	
 	<model level="0" type="pants_nocloth" path="./oral_pants_out_sub_*.model" material="./apc.mtl"/>
 	<model level="0" type="pants_nocloth" path="./oral_pants_001_*.model" material="./apc.mtl"/>
 <dif>

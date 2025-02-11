@@ -15,4 +15,4 @@ Kit Colors:
 - 8th Player: #0d0e0d - #70ba2e - 15
 - 9th Player: #68318e - #f1c7f7 - 15
 
-- 1st GK: #f4efa7 - #b5bbc8 - 15
+- 1st GK: #314b8f - #2433a8 - 15

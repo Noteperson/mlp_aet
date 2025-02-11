@@ -2,8 +2,6 @@
 <config>
     <model level="0" type="face_neck" path="./face_high_*.model"
                                  material="./face.mtl"/>
-	<model level="0" type="shirt" path="./oral_blinders_medi_*.model"
-											material="./apc.mtl"/>
 	<model level="0" type="pants_nocloth" path="./oral_pants_out_sub_*.model" material="./apc.mtl"/>
 	<model level="0" type="pants_nocloth" path="./oral_pants_001_*.model" material="./apc.mtl"/>
 	<model level="0" type="collar" path="./oral_collar_001_*.model"

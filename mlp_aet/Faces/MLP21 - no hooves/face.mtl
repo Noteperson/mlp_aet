@@ -1,10 +1,10 @@
 <materialset>
 	<material name="face_phong" shader="Pony">
-        <sampler name="DiffuseMap" path="./head_shimmer.dds" srgb="1" minfilter="linear" magfilter="linear" uaddr="clamp" vaddr="clamp" />
+        <sampler name="DiffuseMap" path="./head.dds" srgb="1" minfilter="linear" magfilter="linear" uaddr="clamp" vaddr="clamp" />
 	</material>
 	
 	<material name="head_phong" shader="Pony">
-		<sampler name="DiffuseMap" path="./head_shimmer.dds" srgb="1" minfilter="linear" magfilter="linear" uaddr="clamp" vaddr="clamp" />
+		<sampler name="DiffuseMap" path="./head.dds" srgb="1" minfilter="linear" magfilter="linear" uaddr="clamp" vaddr="clamp" />
 	</material>
 
     <material name="eyelash_mat" shader="Constant">
