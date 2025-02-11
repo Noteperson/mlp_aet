@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <config>
-	<model level="0" type="face_neck" path="./face_high_*.model"
-                                 material="./face.mtl"/>
 	<model level="0" type="parts" path="./oral_hasbro_*.model"
                                  material="./apc.mtl"/>
 <dif>

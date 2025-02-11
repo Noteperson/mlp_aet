@@ -1,5 +1,5 @@
 <materialset>
-	<material name="mane" shader="Basic_C">
+	<material name="mane" shader="Pony">
 		<state name="alpharef" value="0" />
 		<state name="blendmode" value="0" />
 		<state name="alphablend" value="0" />
