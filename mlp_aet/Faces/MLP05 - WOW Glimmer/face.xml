@@ -1,24 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <config>
-    <model level="0" type="face_neck" path="./face_high_*.model"
-                                 material="./face.mtl"/>
-	<model level="0" type="head" path="./oral_glim_*.model"
-                                 material="./apc.mtl"/>
-	<model level="0" type="shirt" path="./oral_shirt_medi_*.model"
-								 material="./apc_shirt.mtl"/>
-	<model level="0" type="uniform" path="./oral_socks_medi_*.model"
-								 material="./apc_socks.mtl"/>
-	<model level="0" type="parts" path="./oral_wow_*.model"
-                                 material="./apc.mtl"/>
-	<model level="0" type="parts" path="./oral_body_medi_*.model"
+   <model level="0" type="face_neck" path="./face_high_*.model"
+                         material="./face.mtl"/>
+	<model level="0" type="parts" path="./oral_body_*.model"
 								 material="./apc.mtl"/>
-	<model level="0" type="parts" path="./oral_shirt_tail_*.model"
-                                 material="./apc_shirt.mtl"/>
-	<model level="0" type="parts" path="./oral_shoes_medi_*.model"
-								 material="./apc_shoes.mtl"/>
-	<model level="0" type="parts" path="./oral_shoewings_medi_*.model"
-								 material="./apc_shoewings.mtl"/>
+	<model level="0" type="parts" path="./oral_tail_*.model"
+								 material="./apc.mtl"/>
+	<model level="0" type="shirt" path="./oral_shirt_*.model"
+								 material="./apc.mtl"/>
+	<model level="0" type="uniform" path="./oral_socks_*.model"
+								 material="./apc.mtl"/>
+	<model level="0" type="parts" path="./oral_wow_*.model"
+                         material="./apc.mtl"/>
+
 <dif>
-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
+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
 </dif> 
 </config> 

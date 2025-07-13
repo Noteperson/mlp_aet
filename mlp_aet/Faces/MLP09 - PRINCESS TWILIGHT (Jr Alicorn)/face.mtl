@@ -1,0 +1,84 @@
+<materialset>
+	<material name="face" shader="Basic_C">
+		<state name="alpharef" value="0" />
+		<state name="blendmode" value="0" />
+		<state name="alphablend" value="0" />
+		<state name="alphatest" value="0" />
+		<state name="twosided" value="0" />
+		<state name="ztest" value="1" />
+		<state name="zwrite" value="1" />
+		<sampler name="DiffuseMap" path="./head.dds" srgb="1" minfilter="anisotropic" magfilter="linear" mipfilter="linear" uaddr="wrap" vaddr="wrap" waddr="wrap" maxaniso="2" />
+	</material>
+	
+	<material name="mane" shader="Basic_C">
+		<sampler name="DiffuseMap" path="./mane.dds" srgb="1" minfilter="linear" magfilter="linear" uaddr="clamp" vaddr="clamp" />
+	</material>
+	
+	<material name="horn" shader="Basic_C">
+		<sampler name="DiffuseMap" path="./horn.dds" srgb="1" minfilter="linear" magfilter="linear" uaddr="clamp" vaddr="clamp" />
+	</material>
+	
+	<material name="magic" shader="Basic_C">
+		<state name="alpharef" value="0" />
+		<state name="blendmode" value="0" />
+		<state name="alphablend" value="1" />
+		<state name="alphatest" value="0" />
+		<state name="twosided" value="0" />
+		<state name="ztest" value="1" />
+		<state name="zwrite" value="1" />
+		<sampler name="DiffuseMap" path="./magic.dds" srgb="1" minfilter="anisotropic" magfilter="linear" mipfilter="linear" uaddr="wrap" vaddr="wrap" waddr="wrap" maxaniso="2" />
+	</material>
+	
+	<material name="crown" shader="Basic_CNSR">
+		<vector name="Reflection" x="0.9" y="1" z="1" w="0" />
+		<vector name="Shininess" x="0.9" y="0" z="0" w="1.0" />
+		<sampler name="DiffuseMap" path="./mane.dds" srgb="1" minfilter="anisotropic" magfilter="linear" mipfilter="linear" uaddr="wrap" vaddr="wrap" waddr="wrap" maxaniso="2" />
+		<sampler name="SpecularMap" path="./no_spec.dds" srgb="0" minfilter="anisotropic" magfilter="linear" mipfilter="linear" uaddr="wrap" vaddr="wrap" waddr="wrap" maxaniso="2" />
+		<sampler name="EnvironmentMap" path="./brass_envi.dds" srgb="0" minfilter="anisotropic" magfilter="linear" mipfilter="linear" uaddr="wrap" vaddr="wrap" waddr="wrap" maxaniso="2" />
+		<state name="alpharef" value="0" />
+		<state name="blendmode" value="0" />
+		<state name="alphablend" value="0" />
+		<state name="alphatest" value="0" />
+		<state name="twosided" value="0" />
+		<state name="ztest" value="1" />
+		<state name="zwrite" value="1" />
+	</material>
+	
+	<material name="crownjewel" shader="Basic_CNSR">
+		<vector name="Reflection" x="0.9" y="1" z="1" w="0" />
+		<vector name="Shininess" x="0.9" y="0" z="0" w="0.1" />
+		<sampler name="DiffuseMap" path="./mane.dds" srgb="1" minfilter="anisotropic" magfilter="linear" mipfilter="linear" uaddr="wrap" vaddr="wrap" waddr="wrap" maxaniso="2" />
+		<sampler name="SpecularMap" path="./no_spec.dds" srgb="0" minfilter="anisotropic" magfilter="linear" mipfilter="linear" uaddr="wrap" vaddr="wrap" waddr="wrap" maxaniso="2" />
+		<sampler name="EnvironmentMap" path="./glass_envi.dds" srgb="0" minfilter="anisotropic" magfilter="linear" mipfilter="linear" uaddr="wrap" vaddr="wrap" waddr="wrap" maxaniso="2" />
+		<state name="alpharef" value="0" />
+		<state name="blendmode" value="0" />
+		<state name="alphablend" value="0" />
+		<state name="alphatest" value="0" />
+		<state name="twosided" value="0" />
+		<state name="ztest" value="1" />
+		<state name="zwrite" value="1" />
+	</material>
+
+    <material name="eyelash_mat" shader="Constant">
+        <state name="ztest" value="1" />
+        <state name="zwrite" value="0" />
+        <state name="twosided" value="1" />
+        <state name="alphatest" value="1" />
+        <state name="alpharef" value="0" />
+        <state name="alphablend" value="1" />
+        <state name="blendmode" value="0" />
+        <sampler name="DiffuseMap" path="model/character/face/common/face_eyelash.dds" srgb="1" minfilter="linear" magfilter="linear" uaddr="clamp" vaddr="clamp"/>
+    </material>
+
+    <material name="eyeocclusion_lambert" shader="Overlay">
+        <state name="ztest" value="1" />
+        <state name="zwrite" value="0" />
+        <state name="twosided" value="0" />
+        <state name="alphatest" value="1" />
+        <state name="alpharef" value="0" />
+        <state name="alphablend" value="1" />
+        <state name="blendmode" value="0" />
+        <sampler name="DiffuseMap" path="./eye_occlusion.dds" srgb="1" minfilter="linear" magfilter="linear" uaddr="wrap" vaddr="clamp"/>
+        <vector name="DepthBias" x="0.005" y="0" z="0" w="0" />
+    </material>
+</materialset>
